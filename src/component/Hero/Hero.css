@@ -1,0 +1,148 @@
+.categories{
+    position: absolute;
+    width: 310px;
+    height: 774px;
+    left: 165px;
+    top: 586px;
+    background: rgb(230, 231, 230);
+    /* background: #FBFBFB; */
+}
+.categories_name{
+    position: absolute;
+    width: 93px;
+    height: 16px;
+    left: 18px;
+    top: 14x;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #3D3D3D;
+}
+.categories_in {
+    position: absolute;
+    width: 91px;
+    height: 360px;
+    left: 37px;
+    top: 32px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    /* or 267% */
+    
+    
+    color: #3D3D3D;
+
+    
+}
+.in_house{
+    color:#46A358;
+}
+.categories_number{
+    position: absolute;
+    width: 28px;
+    height: 360px;
+    left: 225px;
+    top: 0px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    /* or 267% */
+    
+    text-align: right;
+    
+    color: #3D3D3D;
+}
+.number_33{
+    color: #46A358;
+}
+.price_range{
+    position: absolute;
+    width: 101px;
+    height: 16px;
+    left: 18px;
+    top: 529px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #3D3D3D;
+}
+/* DOOT AND LINE */
+
+
+.dot_1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 600px;
+    border-radius: 10px;
+    background: #46A358;
+    border: 3px solid #FFFFFF;
+
+}
+.line_1{
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    left: 52px;
+    top: 607px;
+    border: 3px solid #46A358;
+}
+
+.dot_2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 215px;
+    top: 600px;
+    background: #46A358;
+    border-radius: 10px;
+    border: 3px solid #FFFFFF;
+}
+
+.line_2{
+    position: absolute;
+    width: 209px;
+    height: 0px;
+    left: 80px;
+    top: 607px;
+    
+    border: 3px solid rgba(70, 163, 88, 0.2);
+}
+
+.price_39{
+    position: absolute;
+    width: 125px;
+    height: 16px;
+    left: 150px;
+    top: 685px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 107% */
+    
+    
+    color: #3D3D3D;
+    
+}
