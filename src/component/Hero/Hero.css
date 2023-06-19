@@ -1,8 +1,8 @@
 .categories{
     position: absolute;
     width: 310px;
-    height: 774px;
-    left: 165px;
+    height: 830px;
+    left: 205px;
     top: 586px;
     background: rgb(230, 231, 230);
     /* background: #FBFBFB; */
@@ -29,12 +29,12 @@
     width: 91px;
     height: 360px;
     left: 37px;
-    top: 32px;
+    top: 20px;
     
     font-family: 'Cera Pro';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 40px;
     /* or 267% */
     
@@ -45,18 +45,19 @@
 }
 .in_house{
     color:#46A358;
+    margin-bottom: -15px;
 }
 .categories_number{
     position: absolute;
     width: 28px;
-    height: 360px;
+    height: 260px;
     left: 225px;
     top: 0px;
     
     font-family: 'Cera Pro';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 40px;
     /* or 267% */
     
@@ -65,6 +66,7 @@
     color: #3D3D3D;
 }
 .number_33{
+    margin-bottom: -15px;
     color: #46A358;
 }
 .price_range{
@@ -72,7 +74,7 @@
     width: 101px;
     height: 16px;
     left: 18px;
-    top: 529px;
+    top: 465px;
     
     font-family: 'Cera Pro';
     font-style: normal;
@@ -92,7 +94,7 @@
     width: 20px;
     height: 20px;
     left: 30px;
-    top: 600px;
+    top: 520px;
     border-radius: 10px;
     background: #46A358;
     border: 3px solid #FFFFFF;
@@ -103,7 +105,7 @@
     width: 161px;
     height: 0px;
     left: 52px;
-    top: 607px;
+    top: 527px;
     border: 3px solid #46A358;
 }
 
@@ -112,7 +114,7 @@
     width: 20px;
     height: 20px;
     left: 215px;
-    top: 600px;
+    top: 520px;
     background: #46A358;
     border-radius: 10px;
     border: 3px solid #FFFFFF;
@@ -123,17 +125,221 @@
     width: 209px;
     height: 0px;
     left: 80px;
-    top: 607px;
+    top: 527px;
     
     border: 3px solid rgba(70, 163, 88, 0.2);
 }
 
-.price_39{
+.price_39  {
     position: absolute;
-    width: 125px;
+    width: 155px;
     height: 16px;
-    left: 150px;
-    top: 685px;
+    left: 35px;
+    top: 545px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 107% */
+    
+    
+    color: #3D3D3D;
+    
+}
+.price_39 span{
+    position: absolute;
+    width: 155px;
+    height: 16px;
+    color: #46A358;
+    font-size: 20px;
+    margin: 0px 4px 6px 6px ;
+}
+.filter{
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    left: 35px;
+    top: 600px;
+    
+    background: #46A358;
+    border-radius: 6px;
+}
+.filter span{
+    position: absolute;
+    width: 39px;
+    height: 20px;
+    left: 24px;
+    top: 9px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.size_name{
+    position: absolute;
+    width: 34px;
+    height: 16px;
+    left: 18px;
+    top: 650px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #3D3D3D;
+    
+}
+
+.sizes  {
+    position: absolute;
+    width: 56px;
+    height: 120px;
+    left: 32px;
+    top: 670px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    /* or 267% */
+    
+    
+    color: #3D3D3D;
+}
+.sizes_num{
+    position: absolute;
+    width: 30px;
+    height: 120px;
+    left: 240px;
+    top: 670px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    /* or 267% */
+    
+    text-align: right;
+    
+    color: #3D3D3D;
+}
+
+.super_sale{
+    position: absolute;
+    width: 310px;
+    height: 500px;
+    /* left: 120px; */
+    top: 830px;
+    /* background: #99caa3; */
+    background: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
+}
+
+.super_name{
+    position: absolute;
+    width: 306px;
+    height: 110px;
+    left: 12px;
+    /* top: 8px; */
+    bottom: 290px;
+    
+    font-family: 'Hanging Letters';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 65px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #46A358;
+}
+
+.super_up{
+    position: absolute;
+    width: 266px;
+    height: 16px;
+    left: 12px;
+    top: 90px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 16px;
+    /* identical to box height, or 70% */
+    
+    text-align: center;
+    
+    color: #3D3D3D;
+    
+}
+
+.super_foto {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0px;
+    top: 140px;
+    
+    mix-blend-mode: multiply;
+}
+
+
+/* SHEEETS  */
+
+
+
+.all_plant{
+    position: absolute;
+    width: 66px;
+    height: 16px;
+    left: 540px;
+    top: 576px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 107% */
+    
+    
+    color: #46A358;
+}
+
+.all_plant:after{
+    text-decoration: underline;
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 70px;
+    height: 3.2px;
+    background-color: rgba(13, 161, 50, 0.671);
+}
+
+
+.new_arr{
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 643px;
+    top: 576px;
     
     font-family: 'Cera Pro';
     font-style: normal;
@@ -144,5 +350,785 @@
     
     
     color: #3D3D3D;
+}
+.sheets_sale{
+    position: absolute;
+    width: 29px;
+    height: 16px;
+    left: 769px;
+    top: 576px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 107% */
+    
+    
+    color: #3D3D3D;
+    
+}
+
+/* aLL pLANTS fOTO  */
+
+
+/* Flower  */
+
+/* Barberton */
+
+
+.barberton{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 484px;
+    top: 671px;
+    margin: 20px 0px 0px 60px;
+    mix-blend-mode: multiply;
+}
+.barberton_name{
+    position: absolute;
+    width: 118px;
+    height: 16px;
+    left: 575px;
+    top: 935px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;
+}
+
+.barberton_cost{
+    position: absolute;
+    width: 62px;
+    height: 16px;
+    left: 575px;
+    top: 974px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+    
+}
+
+/* Angel */
+
+.angelwing{
+
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 775px;
+    top: 665px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.angelwing_name{
+    position: absolute;
+    width: 152px;
+    height: 16px;
+    left: 840px;
+    top: 935px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;
+}
+
+.angelwing_cost{
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 840px;
+    top: 974px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+}
+
+    /* African  */
+
+.african{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1066px;
+    top: 664px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.african_name{
+    position: absolute;
+    width: 99px;
+    height: 16px;
+    left: 1132px;
+    top: 935px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;  
+}
+
+.african_cost{
+
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 1132px;
+    top: 974px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+    
+}
+
+.african_cost2{
+    position: absolute;
+    width: 66px;
+    height: 16px;
+    left: 1210px;
+    top: 974px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #A5A5A5;
+}
+
+
+/* Angelwing / */
+
+.angelwing1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1366px;
+    top: 664px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+
+.angelwing1_name{
+    position: absolute;
+    width: 166px;
+    height: 16px;
+    left: 1450px;
+    top: 935px;
+
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #3D3D3D;
+}
+
+.angelwing1_cost{
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 1450px;
+    top: 974px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+}
+
+/* Flower 2 */
+
+.flower2{
+    position: absolute;
+    width: 224px;
+    height: 286px;
+    left: 501px;
+    top: 1066px;
+    margin: 0px 0px 0px 60px;
+
+   
+}
+
+
+.flower2_name{
+    position: absolute;
+    width: 127px;
+    height: 16px;
+    left: 575px;
+    top: 1370px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;
+}
+
+.flower2_cost{
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    left: 575px;
+    top: 1410px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+}
+
+/* Blushing */
+
+.blushing{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 775px;
+    top: 1083px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.blushing_name{
+    position: absolute;
+    width: 142px;
+    height: 16px;
+    left: 840px;
+    top: 1370px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;
+    
+}
+.blushing_cost{
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 840px;
+    top: 1410px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+}
+
+/* Aluminum  */
+
+.aluminum{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1066px;
+    top: 1083px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.aluminum_name{
+    position: absolute;
+    width: 115px;
+    height: 16px;
+    left: 1132px;
+    top: 1370px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;
+}
+
+.aluminum_cost{
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 1132px;
+    top: 1410px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+}
+
+/* Blushing 1  */
+
+.blushing1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1366px;
+    top: 1083px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.blushing1_name{
+    position: absolute;
+    width: 166px;
+    height: 16px;
+    left: 1450px;
+    top: 1370px;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.blushing1_cost{
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 1450px;
+    top: 1410px;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+/* Birds  */
+
+.birds{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 484px;
+    top: 1498px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.birds_name{
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    left: 575px;
+    top: 1790px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;
+    
+}
+
+
+.birds_cost{
+    position: absolute;
+    width: 57px;
+    height: 16px;
+    left: 575px;
+    top: 1830px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+}
+
+    /* Broad  */
+
+.broad{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 775px;
+    top: 1508px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.broad_name{
+    position: absolute;
+    width: 150px;
+    height: 16px;
+    left: 840px;
+    top: 1792px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;
+}
+
+.broad_cost{
+    position: absolute;
+    width: 57px;
+    height: 16px;
+    left: 840px;
+    top: 1830px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+}
+
+/* Chiness  */
+
+.chines{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1066px;
+    top: 1499px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.chines_name{
+    position: absolute;
+    width: 139px;
+    height: 16px;
+    left: 1132px;
+    top: 1792px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #3D3D3D;
+    
+}
+
+.chines_cost{
+    position: absolute;
+    width: 57px;
+    height: 16px;
+    left: 1132px;
+    top: 1830px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
+}
+
+/* Broad / */
+
+.broad1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1366px;
+    top: 1499px;
+    margin: 20px 0px 0px 60px;
+
+    mix-blend-mode: multiply;
+}
+
+.broad1_name{
+    position: absolute;
+    width: 139px;
+    height: 16px;
+    left: 1450px;
+    top: 1792px;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.broad1_cost{
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 1450px;
+    top: 1830px;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+/* Pagess  */
+
+
+.pagess_1{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1490px;
+    top: 1910px;
+    
+    background: #46A358;
+    border-radius: 4px;
+}
+
+.pagess_one{
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    left: 14px;
+    top: -7px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #FFFFFF;;
+    
+}
+
+.pagess_2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1535px;
+    top: 1910px;
+    
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.pagess_two{
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    left: 12px;
+    top: -8px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #3D3D3D;
+}
+
+.pagess_3{
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1580px;
+    top: 1910px;
+    
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.pagess_three{
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    left: 12px;
+    top: -8px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #3D3D3D;
+}
+
+.pagess_4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1625px;
+    top: 1910px;
+    
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.pagess_four{
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    left: 12px;
+    top: -8px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #3D3D3D;
+}
+
+.pagess_5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 65px;
+    height: 35px;
+    left: 1670px;
+    top: 1910px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px 30px 30px 10px;
+}
+
+.pagess_next{
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    left: 12px;
+    top: -8px;
+    
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #46A358;
     
 }
